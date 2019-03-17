@@ -493,6 +493,8 @@ body {
     transform: translateY(100%); }
   .btn:hover .btn__invisible {
     top: 0; }
+  .btn:focus {
+    outline: none; }
 
 .legal {
   font-size: 1.2rem;

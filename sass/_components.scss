@@ -556,6 +556,10 @@
         top: 0;
         
     }
+    &:focus{
+        outline: none;
+    }
+   
        
     
 }
