@@ -128,6 +128,22 @@ body {
   flex-direction: column;
   align-items: center; }
 
+.footer {
+  background-color: var(--color-gray-dark-1);
+  text-align: center;
+  display: none;
+  padding: 5rem 0; }
+  .footer__text {
+    font-size: 1.2rem;
+    text-align: center; }
+  @media only screen and (max-width: 56.25em) {
+    .footer {
+      display: block;
+      font-size: 1.8rem; } }
+  @media only screen and (max-width: 31.25em) {
+    .footer {
+      font-size: 1.5rem; } }
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem; }
@@ -141,7 +157,8 @@ body {
     .search {
       order: 1;
       flex: 0 0 100%;
-      background-color: var(--color-gray-light-2); } }
+      background-color: var(--color-gray-light-2);
+      overflow: hidden; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;

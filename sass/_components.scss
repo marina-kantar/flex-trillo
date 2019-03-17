@@ -19,6 +19,7 @@
         order: 1;
         flex: 0 0 100%;
         background-color: var( --color-gray-light-2);
+        overflow: hidden;
     }
 
     &__input{
