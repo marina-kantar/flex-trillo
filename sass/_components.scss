@@ -520,9 +520,11 @@
     border-radius: 100px;
     background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
     color:#fff;
+    cursor: pointer;
     position: relative;
     overflow: hidden;
     transition: all .2s;
+    
 
     &__visible{
         display: inline-block;
@@ -546,6 +548,7 @@
 
     &:hover{
         background-image: linear-gradient(to right, var(--color-primary-dark), var(--color-primary-light));
+        
     }
     &:hover &__visible{
         transform: translateY(100%);
